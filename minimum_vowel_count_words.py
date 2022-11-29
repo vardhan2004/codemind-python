@@ -13,7 +13,5 @@ b=[]
 for i in d:
     c=vow_count(i)
     b.append(c)
-if len(b)==1:
-    print(1)
-else:
-    print(b.count(min(b)))
+
+print(b.count(min(b)))
