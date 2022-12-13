@@ -1,11 +1,6 @@
 def fun(n,k):
-    d=0
-    if n==0 and k==1:
-        return True
-    while n:
-        d+=1
-        n//=10
-    if d==k:
+    n=str(n)
+    if len(n)==k:
         return True
     else:
         return False
