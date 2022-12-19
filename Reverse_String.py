@@ -1,2 +1,2 @@
-l=list(map(str,input().split()))
-print(*l[-1:-len(l)-1:-1])
+s=list(map(str,input().split()))
+print(*s[-1:-len(s)-1:-1])
